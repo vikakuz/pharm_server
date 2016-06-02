@@ -80,10 +80,10 @@ WSGI_APPLICATION = 'drugs_server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
-        'HOST': '127.0.0.3',
+        'NAME': 'python',
+        'USER': ' admincstymky',
+        'PASSWORD': 'PxwFSEpgTxl_',
+        'HOST': 'python-pharmsystem.rhcloud.com',
         'PORT': '5434',
     }
 }
