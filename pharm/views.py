@@ -6,7 +6,7 @@ from django.shortcuts import get_list_or_404
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the drugs index.")
+    return HttpResponse("Вы находитесь на стартовой странице сервера базы данных лекарственных препаратов.")
 
 
 def search_detail(request, drug_name):
