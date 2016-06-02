@@ -80,11 +80,11 @@ WSGI_APPLICATION = 'drugs_server.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': os.environ['python'],
-        'USER': os.environ[' admincstymky'],
-        'PASSWORD': os.environ['PxwFSEpgTxl_'],
-        'HOST': os.environ['python-pharmsystem.rhcloud.com'],
-        # 'PORT': '5434',
+        'NAME': os.environ['OPENSHIFT_APP_NAME'],
+        'USER': os.environ['OPENSHIFT_POSTGRESQL_DB_USERNAME'],
+        'PASSWORD': os.environ['OPENSHIFT_POSTGRESQL_DB_PASSWORD'],
+        'HOST': os.environ['OPENSHIFT_POSTGRESQL_DB_HOST'],
+        'PORT': 'OPENSHIFT_POSTGRESQL_DB_PORT',
     }
 }
 
